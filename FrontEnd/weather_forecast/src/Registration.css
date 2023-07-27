@@ -1,0 +1,63 @@
+.back-grnd{
+  display: flex;
+  padding-top: 40px;
+  /* padding-right: 40px; */
+  /* padding-left: 40px; */
+  /* padding-bottom: 40px; */
+ height:120vh;
+ width: 100%;
+ position: relative;
+ background-image: url('./images/logbg.jpg');
+ background-size: cover;
+}
+.cont{
+  margin: 0 auto;
+  display:flex;
+  padding-top: 20px;
+  /* padding-right: 40px; */
+  border-radius: 10px;
+  height: 500px;
+  width:30%;
+  /* background-color:rgba(9, 27, 43,0.7); */
+}
+.title{
+  /* padding-left: 170px; */
+    padding-top: 60px;
+    font-size: 40px;
+    width: 650px;
+}
+  h2{
+    text-align: left;
+  }
+  input{
+    /* width: 500px; */
+    height: 20px;
+    border-radius: 60px;
+    box-shadow:1px 1px 1px 1px black;
+    padding: 2px;
+    border: gray;
+    text-align: left;
+  }
+  .inputtt{
+    padding:5px;
+  }
+  form{
+    width:300px;
+  }
+  .form-group {
+    text-align: left;
+    padding: 10px;
+    /* width: 400px; */
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+  

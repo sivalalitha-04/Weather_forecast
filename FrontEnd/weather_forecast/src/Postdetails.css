@@ -1,0 +1,74 @@
+.adpostbg{
+    height:100vh;
+ position: relative;
+ overflow-y: scroll;
+ width: 100%;
+}
+.adpostbrng{
+    padding:3rem;
+    width: 90%;
+}
+.postcont{
+    padding: 2rem;
+}
+.padpost{
+    padding: 1rem;
+}
+.post{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:2px 3px 9px 7px gray;
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.post h2{
+    font-size: 30px;
+}
+.spost{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:2px 3px 9px 7px gray;
+    width: 80%;
+    height: 60vh;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.psep{
+    display: inline-block;
+}
+.dpost{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:2px 3px 9px 7px gray;
+    height: 60vh;
+    width: 73%;
+    padding-top: 1rem;
+    padding-left: 13rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.sun{
+    /* display: inline-block; */
+    padding-left: 3rem;
+}
+.postbut{
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.postbut button{
+    height: 7vh;
+    width: 15%;
+    color: white;
+    background-color: rgb(2, 15, 26);
+    border: none;
+    border-radius: 20px;
+}

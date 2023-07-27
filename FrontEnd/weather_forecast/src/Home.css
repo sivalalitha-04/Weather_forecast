@@ -1,0 +1,247 @@
+.home_back-grnd{
+    position: relative;
+}
+.home_{
+    overflow-y: scroll;
+    height:100vh;
+    background-size: cover;
+    background-image: url('./images/bgsunny.jpg');
+    padding:30px;
+}
+.adpur{
+    width: 98%;
+    text-align: right;
+}
+.imag{
+    width: 100%;
+}
+.links {
+    width: 55%;
+    float: right;
+    /* width: 1100px; */
+}
+.links li a:hover::after{
+    content: "";
+    width: 20%;
+    height:3px;
+    background-color:rgb(254, 254, 255);
+    position:absolute;
+    bottom:-4px;
+    left:19px;
+}
+.home_cont{
+    border-radius: 10px;
+    height: 20px;
+    margin-top: 0;
+    /* background-color: rgb(2, 15, 26); */
+    display:flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position:relative;
+    width:94%;
+    /* position: absolute; */
+}
+.home_content{
+    display: flex;
+    padding: 20px;
+}
+.logo{
+    padding-left: 40px;
+}
+.search-b{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-bar{
+    /* background-color: rgba(2, 15, 26,0.6); */
+    border-radius: 10px;
+    width:92%;
+    height: 11vh;
+    padding: 10px;
+    padding-left: 60px;
+}
+.s-b{
+    float: left;
+    width: 45%;
+}
+.dropdown{
+    background-color: transparent;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.dropdown:empty{
+    border: none;
+}
+.dropdown-row{
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+}
+.date-in{
+    float: right;
+}
+.s-d{
+    float: right;
+    width:70%;
+}
+.search-but{
+    height: 30px;
+    color:black;
+    /* background-color: rgb(2, 15, 26); */
+    border-radius: 10px;
+}
+.search-cont{
+    width:20%;
+    display: inline-block;
+}
+.in{
+    width:45px;
+}
+.details{
+    color: white;
+    width: 98%;
+    display:flex;
+}
+.desc{
+    /* padding-left: 100px; */
+    width:20%;
+    float: left;
+}
+.desc h3{
+    padding: 10px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.temp{
+    font-size: 30px;
+    padding-left: 6%;
+    width:23%;
+    float:left;
+}
+.time{
+    float:right;
+    text-align: right;
+}
+.hour-det{
+    width: 98%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.hour-det::-webkit-scrollbar {
+    width: 5px;
+    /* background-color: rgba(220, 201, 173,0.0);  */
+}
+.hourly{
+    border-radius: 10px;
+    /* background-color:rgba(2, 15, 26,0.8); */
+    padding-bottom: 20px;
+    border:2px solid white;
+    flex: 1; 
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.hourly::-webkit-scrollbar {
+    width: 5px;
+    /* background-color: rgba(220, 201, 173,0.0);  */
+}
+.sep{
+    display: inline-block;
+    padding:15px;
+}
+.h_det p{
+    margin: 30px;
+}
+.h_det{
+    width: 110%;
+    border-radius: 10px;
+    /* background-color: rgba(11, 16, 21, 0.3); */
+    text-align: center;
+    color:white;
+    border:2px solid white;
+}
+.d-rep{
+    width:98%;
+}
+.dad{
+    float: left;
+    width: 60%;
+}
+.day-det{
+    height:36vh;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    white-space: nowrap;
+}
+.day-det::-webkit-scrollbar {
+    width: 5px;
+    /* background-color: rgba(220, 201, 173,0.0);  */
+  }
+.dayly{
+    border-radius: 10px;
+    /* background-color: rgba(2, 15, 26,0.8); */
+    padding-bottom: 20px;
+} 
+.d-sep{
+    padding:15px;
+}
+.d-con{
+    border-radius: 10px;
+    /* background-color: rgba(11, 16, 21, 0.3); */
+    color:white;
+    padding-top: 10px;
+    padding: 20px;
+    border:2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.day{
+    padding-top: 40px;
+}
+.p1{
+    float: left;
+    width: 45;
+}
+.p2{
+    float: right;
+    width: 45%;
+}
+  .info {
+    width: 60%;
+    align-items: center;
+  }
+  .info p {
+    align-items: center;
+    /* float: right; */
+  }
+.ind{
+    width: 40%;
+    float: right;
+}
+.indices{
+    padding-top: 20px;
+    border-radius: 10px;
+    border:2px solid white;
+    /* background-color: rgba(2, 15, 26,0.8); */
+    padding-bottom: 20px;
+}
+.down{
+    width: 100%;
+    
+}
+.dis{
+    width:40%;
+    float: left;
+}
+.sun{
+    width:50%;
+    float: left;
+}
+ 

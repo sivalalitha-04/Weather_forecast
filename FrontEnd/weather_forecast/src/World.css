@@ -1,0 +1,133 @@
+.world_back-grnd{
+    /* padding: 1%; */
+}
+.world_{
+        height:200vh;
+        position: relative;
+        /* padding:30px; */
+        background-size: cover;
+        background-image: url('./images/bgsunny.jpg');
+}
+
+li{
+    display:inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 20px;
+    position:relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover{
+    color:rgb(229, 230, 236);
+}
+#navbar li a:hover::after{
+    content: "";
+    width: 20%;
+    height:2px;
+    background-color:rgb(255, 255, 255);
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+}
+#mobile i{
+    color:white;
+}
+#mobile{
+    display:none;
+}
+@media screen and (max-width:760px){
+    #navbar{
+        display:flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: flex-start;
+        position:fixed;
+        top:90px;
+        right:-300px;
+        width:100px;
+        height:100vh;
+        background-color: rgb(9, 27, 43);
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 40px 0 0 10px;
+        transition:0.3s ease-in-out;
+    }
+    #navbar.active{
+        right:0px;
+    }
+    #mobile{
+        float:right;
+        display:block;
+    }
+    #navbar li{
+        margin-bottom:25px;
+    }
+    #mobile i{
+        float:right;
+        font-size: 24px;
+        cursor:pointer;
+    }
+}
+.w-sep{
+    /* padding:15px; */
+    width:90%;
+    height: 18vh;
+    /* padding-bottom: 20px; */
+    /* display: inline-block; */
+  }
+.world{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 97%;
+}
+.sel-sp{
+    padding-left: 15px;
+    /* width:10%; */
+}
+/* .add-but{
+    padding-top: 2%;
+    width:20%;
+    float:right;
+} */
+option{
+    background-color: rgba(9, 27, 43,0.9);
+    color: white;
+}
+.w-cont{
+    border-radius: 10px;
+    height:60px;
+    width:78%;
+    float: left;
+}
+.input-b{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.input-bar{
+    /* background-color: rgba(9, 27, 43,0.6); */
+    border-radius: 10px;
+    width:92%;
+    height: 6vh;
+    padding: 10px;
+    padding-left: 60px;
+}
+.ed-but{
+    width: 20%;
+    float: right;
+}
+.worbut{
+    float: right;
+    width: 26%;
+}
+.worbut button{
+    border-radius: 30px;
+    background-color: rgb(9, 27, 43);
+    width:30%;
+    color: white;
+    height: 40px;
+}

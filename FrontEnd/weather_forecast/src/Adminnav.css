@@ -1,0 +1,15 @@
+.adnav{
+    border-radius: 10px;
+    height: 20px;
+    margin-top: 0;
+    background-color: rgb(2, 15, 26);
+    display:flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position:relative;
+    width:100%;
+    color: white;
+}

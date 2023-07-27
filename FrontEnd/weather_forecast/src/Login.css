@@ -1,0 +1,79 @@
+.top1{
+    display: flex;
+   height:100vh;
+   position: relative;
+   background-image: url('./images/logbg.jpg');
+   background-size: cover;
+  }
+.image{
+  /* padding-right: 30px; */
+    float:left;
+    position: fixed;
+    top: 50%;
+    right: 19%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.content{
+    width:100%;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(243, 237, 237,0.4);
+}
+.container {
+    margin: 0 auto;
+    display:flex;
+    padding-top: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+  }
+  .head{
+    text-align: center;
+    /* padding-right: 100px; */
+    font-size: 22px;
+  }
+
+  .inputt{
+    padding:20px;
+    /* padding-left: 1%; */
+  }
+
+  .title{
+    /* padding-left: 170px; */
+    padding-top: 60px;
+    font-size: 40px;
+    width: 350px;
+  }
+  h1 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    /* border: 1px solid black; */
+  }
+  .but{
+    padding-left: 70px;
+  }
+  .reg{
+    width:100%;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  form button {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(9, 27, 43,0.9);
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: rgb(5, 23, 38);
+  }
